@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Раздел сотрудников | ЛВМЦ</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #09172d;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 35px 15px;
+    background: linear-gradient(135deg, #087cc7, #13c5d0);
+    border-radius: 18px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    margin: 0 0 12px;
+    font-size: 27px;
+}
+
+header p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    margin: 30px 0 22px;
+    color: #52e5ed;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.card {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: #172b49;
+    border: 1px solid #29496c;
+    border-left: 4px solid #42dce5;
+    border-radius: 15px;
+    padding: 23px 18px;
+    transition: 0.25s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    background: #203d60;
+}
+
+.card .emoji {
+    font-size: 32px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin: 13px 0 8px;
+}
+
+.card p {
+    color: #b9cce1;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card span {
+    color: #51e1ed;
+    font-size: 14px;
+}
+
+.back {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 13px 25px;
+    background: #087fc1;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #8299b5;
+    font-size: 12px;
+    margin-top: 35px;
+}
+
+@media(max-width: 550px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+    <h1>🏥 ЛВМЦ</h1>
+    <p>Las Venturas Medical Center</p>
+    <p>Информационный портал сотрудников</p>
+</header>
+
+<h2 class="section-title">
+    📚 Разделы медицинского центра
+</h2>
+
+<div class="cards">
+
+<a href="onas.html" class="card">
+    <div class="emoji">👨‍⚕️</div>
+    <h2>Главный врач и заместители</h2>
+    <p>Руководящий состав медицинского центра, должности и информация.</p>
+    <span>Открыть раздел →</span>
+</a>
+
+<a href="zarplaty.html" class="card">
+    <div class="emoji">💰</div>
+    <h2>Зарплаты по рангам</h2>
+    <p>Система выплат, ранги и заработная плата сотрудников фракции.</p>
+    <span>Открыть раздел →</span>
+</a>
+
+<a href="binder.html" class="card">
+    <div class="emoji">📋</div>
+    <h2>Настройка биндера</h2>
+    <p>RP-команды, бинды, GOV и необходимые материалы для работы.</p>
+    <span>Открыть раздел →</span>
+</a>
+
+<a href="about.html" class="card">
+    <div class="emoji">🏥</div>
+    <h2>О нас</h2>
+    <p>История, цели, обязанности и деятельность медицинского центра.</p>
+    <span>Открыть раздел →</span>
+</a>
+
+  <a href="onas.html" class="card">
+    <div class="emoji">📞</div>
+    <h2>Контакты</h2>
+    <p>Контактная информация руководящего состава.</p>
+    <span>Открыть раздел →</span>
+  </a>
+
+<a href="t.me/hospitallv" class="card" target="_blank">
+    <div class="emoji">✈️</div>
+    <h2>Telegram канал</h2>
+    <p>Новости, объявления и важная информация для сотрудников.</p>
+    <span>Перейти в Telegram →</span>
+</a>
+
+</div>
+
+<a href="Główna.html" class="back">← На главную</a>
+
+<footer>
+    Las Venturas Medical Center © 2026<br>
+    Все права защищены.
+</footer>
+
+</div>
+
+</body>
+</html>
